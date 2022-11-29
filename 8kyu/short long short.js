@@ -13,6 +13,6 @@ For example: (Input1, Input2) --> output
 //SOLUTION:
 
 function solution(a, b){
-    return a.length > b.length ? b.concat(a).concat(b) : a.concat(b).concat(a);
+    return a.length > b.length ? b+a+b : a+b+a;
   }
   
